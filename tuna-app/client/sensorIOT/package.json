@@ -1,0 +1,14 @@
+{
+  "name": "iot-sensor",
+  "version": "1.0.0",
+  "keywords": [
+    "npm",
+    "package.json",
+    "node.js"
+  ],
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.11.0"
+  },
+  "devDependencies": {}
+}

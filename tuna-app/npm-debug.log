@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v10.9.0
+4 verbose stack Error: Cannot find module 'ansi'
+4 verbose stack     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+4 verbose stack     at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+4 verbose stack     at Module.require (internal/modules/cjs/loader.js:637:17)
+4 verbose stack     at require (internal/modules/cjs/helpers.js:20:18)
+4 verbose stack     at Object.<anonymous> (/usr/share/npm/lib/ls.js:15:13)
+4 verbose stack     at Module._compile (internal/modules/cjs/loader.js:689:30)
+4 verbose stack     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+4 verbose stack     at Module.load (internal/modules/cjs/loader.js:599:32)
+4 verbose stack     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+4 verbose stack     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+5 verbose cwd /root/education/LFS171x/fabric-material/tuna-app
+6 error Linux 4.4.0-1061-aws
+7 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+8 error node v10.9.0
+9 error npm  v3.5.2
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'ansi'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

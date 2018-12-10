@@ -1,0 +1,207 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+db error { error: password authentication failed for user "hppoc"
+    at Connection.parseE (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 94,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '288',
+  routine: 'auth_failed' }
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+{ error: password authentication failed for user "hppoc"
+    at Connection.parseE (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 94,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '288',
+  routine: 'auth_failed' }
+Received kill signal, shutting down gracefully
+Closed out connections
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+db error { error: password authentication failed for user "hppoc"
+    at Connection.parseE (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 94,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '288',
+  routine: 'auth_failed' }
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+{ error: password authentication failed for user "hppoc"
+    at Connection.parseE (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 94,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '288',
+  routine: 'auth_failed' }
+Received kill signal, shutting down gracefully
+Closed out connections
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+db error { error: password authentication failed for user "hppoc"
+    at Connection.parseE (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 94,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '288',
+  routine: 'auth_failed' }
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+{ error: password authentication failed for user "hppoc"
+    at Connection.parseE (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 94,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '288',
+  routine: 'auth_failed' }
+Received kill signal, shutting down gracefully
+Closed out connections
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+E1010 13:50:32.885792983   18241 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1010 13:50:33.847199647   18241 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1010 13:50:35.276233266   18241 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+[31merror[39m: [Remote.js]: Error: Failed to connect before the deadline
+[31merror[39m: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/grpc/src/client.js:838:16)
+
+**************************************************************************************
+Error : Failed to connect client peer, please check the configuration and peer status
+Info :  Explorer will continue working with only DB data
+**************************************************************************************
+
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 18241
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+Error :  [ 'Default client peer is down and no channel details available database' ]
+E1010 13:50:37.541814652   18241 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections

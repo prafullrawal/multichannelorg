@@ -1,0 +1,85 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 10682
+
+
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+
+Sync process is started for the network : [net_basic] and client : [org1]
+
+
+Synchronizer pid is 10705
+
+
+read_set length 225
+write_set size >>>>>>>>> :  0.500788688659668 MB
+read_set length 225
+write_set size >>>>>>>>> :  0.500788688659668 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 9
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 4
+Broadcast >> {"title":"Block 3 added to Channel: mychannel","type":"block","message":"Block 3 established with 1 tx","time":"2018-11-03T06:23:45.000Z","txcount":1,"datahash":"24b1418d1119eb97a6a8ad8d8b22f644666f787cfe955fbe9550fc793d41c45b"}
+read_set length 350
+write_set size >>>>>>>>> :  0.5007905960083008 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 10
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 5
+Broadcast >> {"title":"Block 4 added to Channel: mychannel","type":"block","message":"Block 4 established with 1 tx","time":"2018-11-03T06:23:51.000Z","txcount":1,"datahash":"d39ece16058ad0c71aced83e4e4f0911d822f844b9d02b9735fb3115e64bacb8"}
+read_set length 225
+write_set size >>>>>>>>> :  0.500788688659668 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 11
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 6
+Broadcast >> {"title":"Block 5 added to Channel: mychannel","type":"block","message":"Block 5 established with 1 tx","time":"2018-11-03T06:25:27.000Z","txcount":1,"datahash":"a36eacf8bee74f1598ac30244f1ecda849abd4e5243a03a7212a83f4ad45d885"}
+read_set length 350
+write_set size >>>>>>>>> :  0.5007905960083008 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 12
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 7
+Broadcast >> {"title":"Block 6 added to Channel: mychannel","type":"block","message":"Block 6 established with 1 tx","time":"2018-11-03T06:25:53.000Z","txcount":1,"datahash":"d1d7f8650411533d9095337b954e5856143bb3facfa4ca325dcc17588ac8d75c"}
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+read_set length 225
+write_set size >>>>>>>>> :  0.500788688659668 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 13
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 8
+Broadcast >> {"title":"Block 7 added to Channel: mychannel","type":"block","message":"Block 7 established with 1 tx","time":"2018-11-03T06:29:26.000Z","txcount":1,"datahash":"003d0ef7c4335a30c7941e85d00c8c349f61e60e2a3d440f68c932d3d99365b9"}
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+read_set length 350
+write_set size >>>>>>>>> :  0.5007905960083008 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 14
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 9
+Broadcast >> {"title":"Block 8 added to Channel: mychannel","type":"block","message":"Block 8 established with 1 tx","time":"2018-11-03T06:30:11.000Z","txcount":1,"datahash":"0fd8e9f925d2c94e571a2d6a1e23740a18f1a7d6b8ffd4fe606beb7a39af3e15"}
+read_set length 225
+write_set size >>>>>>>>> :  0.500788688659668 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 15
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 10
+Broadcast >> {"title":"Block 9 added to Channel: mychannel","type":"block","message":"Block 9 established with 1 tx","time":"2018-11-03T06:30:32.000Z","txcount":1,"datahash":"1e1bdcdf67e11e406bca9dbde3dc1ae7404618206db1b533979e854c4fba9971"}
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+read_set length 350
+write_set size >>>>>>>>> :  0.5007905960083008 MB
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21  ) RETURNING *;
+INSERT ID: 16
+Insert sql is INSERT INTO blocks  ( "blocknum","datahash","prehash","txcount","createdt","prev_blockhash","blockhash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8  ) RETURNING *;
+INSERT ID: 11
+Broadcast >> {"title":"Block 10 added to Channel: mychannel","type":"block","message":"Block 10 established with 1 tx","time":"2018-11-03T06:31:24.000Z","txcount":1,"datahash":"1021fc00d5a6b31c02eb1449c45ead6ea779da1e3ab21449c6abb596b4914a65"}
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory
+cat: /home/ubuntu/prafull/Example/tuna-app: Is a directory

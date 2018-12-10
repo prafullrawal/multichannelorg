@@ -1,0 +1,79 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+E1011 11:59:19.830891228   32253 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1011 11:59:20.801963832   32253 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1011 11:59:22.464774429   32253 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+[31merror[39m: [Remote.js]: Error: Failed to connect before the deadline
+[31merror[39m: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/grpc/src/client.js:838:16)
+
+**************************************************************************************
+Error : Failed to connect client peer, please check the configuration and peer status
+Info :  Explorer will continue working with only DB data
+**************************************************************************************
+
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 32253
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+Error :  [ 'Default client peer is down and no channel details available database' ]
+E1011 11:59:24.790949179   32253 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+E1011 12:01:48.165542269   32321 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1011 12:01:49.153949830   32321 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1011 12:01:51.011451744   32321 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+[31merror[39m: [Remote.js]: Error: Failed to connect before the deadline
+[31merror[39m: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/grpc/src/client.js:838:16)
+
+**************************************************************************************
+Error : Failed to connect client peer, please check the configuration and peer status
+Info :  Explorer will continue working with only DB data
+**************************************************************************************
+
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 32321
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+Error :  [ 'Default client peer is down and no channel details available database' ]
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+E1011 12:26:00.364894533   32614 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1011 12:26:01.345164499   32614 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+E1011 12:26:02.887658950   32614 ssl_transport_security.cc:989] Handshake failed with fatal error SSL_ERROR_SSL: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number.
+[31merror[39m: [Remote.js]: Error: Failed to connect before the deadline
+[31merror[39m: [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/education/LFS171x/fabric-material/blockchain-explorer/node_modules/grpc/src/client.js:838:16)
+
+**************************************************************************************
+Error : Failed to connect client peer, please check the configuration and peer status
+Info :  Explorer will continue working with only DB data
+**************************************************************************************
+
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 32614
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+Error :  [ 'Default client peer is down and no channel details available database' ]
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections

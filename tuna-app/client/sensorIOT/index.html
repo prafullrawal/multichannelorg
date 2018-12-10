@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>IoT Sensor</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen"-->
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body >
+<div class="outerContainer">
+<div class="header">
+<a class="navbar-brand" style="background-color: #000; padding-left: 25px; padding-right: 25px; color: white; width: 100%">Watson IoT Sensor Simulator<span class="pull-right" id="deviceId"></span></a>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<!--<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>-->
+</ol>
+<div class="carousel-inner">
+<div class="navy item active">
+<div class="container">
+<div class="carousel-top">
+<h4>Temperature</h4>
+</div>
+<div class="carousel-main">
+<div class="readingBox">
+<h1 class="readingValue" id="tempReading"></h1>
+</div>
+</div>
+<div class="carousel-caption">
+<div class="readingButtons"><button id="tempDown" class="readingButton btn btn-lg btn-default" style="margin-right: 20px;" href="#" role="button"><span class='glyphicon glyphicon-arrow-down'></span></button><button id="tempUp" class="readingButton btn btn-lg btn-default" href="#" role="button"><span class='glyphicon glyphicon-arrow-up'></span></button></div>
+<small><i></i></small>
+</div>
+</div>
+</div>
+<!--
+<div class="green item">
+<div class="container">
+<div class="carousel-top">
+<h4>Humidity</h4>
+</div>
+<div class="carousel-main">
+<div class="readingBox">
+<h1 class="readingValue" id="humidityReading"></h1>
+</div>
+</div>
+<div class="carousel-caption">
+<div class="readingButtons"><button id="humidityDown" class="readingButton btn btn-lg btn-default" style="margin-right: 20px;" href="#" role="button"><span class='glyphicon glyphicon-arrow-down'></span></button><button id="humidityUp" class="readingButton btn btn-lg btn-default" href="#" role="button"><span class='glyphicon glyphicon-arrow-up'></span></button></div>
+<small><i>swipe left/right for more</i></small>
+</div>
+</div>
+</div>
+<div class="orange item">
+<div class="container">
+<div class="carousel-top">
+<h4>Object Temperature</h4>
+</div>
+<div class="carousel-main">
+<div class="readingBox">
+<h1 class="readingValue" id="objectTempReading"></h1>
+</div>
+</div>
+
+<div class="carousel-caption">
+<div class="readingButtons"><button id="objectTempDown" class="readingButton btn btn-lg btn-default" style="margin-right: 20px;" href="#" role="button"><span class='glyphicon glyphicon-arrow-down'></span></button><button id="objectTempUp" class="readingButton btn btn-lg btn-default" href="#" role="button"><span class='glyphicon glyphicon-arrow-up'></span></button></div>
+<small><i>swipe left/right for more</i></small>
+</div>
+</div>
+</div>
+</div>
+<a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="prev"><span class="faded glyphicon glyphicon-chevron-left"></span></a>
+<a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="next"><span class="faded glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+</div>
+<!-- Button trigger modal -->
+<!-- <button class="btn btn-primary btn-lg" id="enterData" data-toggle="modal" data-target="#myModalHorizontal" onclick="return hideData();">
+
+Enter Data Here
+</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog"
+aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<!-- Modal Header -->
+<div class="modal-header">
+<button type="button" class="close"
+data-dismiss="modal">
+<span aria-hidden="true">&times;</span>
+<span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title" id="myModalLabel"> 
+Enter device information to connect to IoT platform
+</h4>
+</div>
+<!-- Modal Body -->
+<div class="modal-body">
+<form id="data-form" method="post" class="form-horizontal" role="form">
+<div class="form-group">
+<label class="col-sm-2 control-label"
+for="inputOrgID">Organization ID</label>
+<div class="col-sm-10">
+<input type='text' class="form-control"
+id="organizationID" placeholder="6 Digit Organization ID"/>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label"
+for="inputDeviceType" >Device Type</label>
+<div class="col-sm-10">
+<input type='text' class="form-control"
+id="deviceType" placeholder="Device Type"/>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label"
+for="inputDeviceID" >Device ID</label>
+<div class="col-sm-10">
+<input type='text' class="form-control"
+id="deviceID" placeholder="Device ID"/>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label"
+for="inputDeviceToken" >Device Token</label>
+<div class="col-sm-10">
+<input type='password' class="form-control"
+id="inputDeviceToken" placeholder="Device Token"/>
+</div>
+</div>
+
+ deprecated device location <div class="form-group">
+<label class="col-sm-2 control-label"
+
+for="inputMetaData" >Device Location</label>
+<div class="col-sm-10">
+<input type='text' class="form-control"
+id="inputMetaData" placeholder="Location"/>
+</div>
+</div>
+</form>
+</div>
+<!-- Modal Footer -->
+<div class="modal-footer">
+<button type="button" class="btn btn-default"
+data-dismiss="modal" onclick="return showButton();">
+Close
+</button>
+<button type="submit" id="submitButton" value="SUBMIT" onclick="return closeWindow();" class="btn btn-primary">
+Save changes
+</button>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mqttws31.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/main.js"></script>
+
+<script type="application/javascript">
+window.addEventListener('load', function () {
+FastClick.attach(document.body);
+}, false);
+$(window).load(function(){
+closeWindow();
+});
+</script>
+</html>

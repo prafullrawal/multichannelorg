@@ -1,0 +1,25 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: cts.com
+    Specs:
+      - Hostname: orderer
+PeerOrgs:
+  - Name: Org1
+    Domain: org1.cts.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+  - Name: Org2
+    Domain: org2.cts.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+  - Name: Org3
+    Domain: org3.cts.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+
